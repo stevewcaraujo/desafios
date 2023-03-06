@@ -1,0 +1,25 @@
+@charset "UFT-8";
+body{
+    background-color: yellow;
+   
+}
+div#pai{
+    background-color: blue;
+width: 400px;
+height: 400px;
+display: grid;
+align-items: center;
+justify-content: center;
+margin: auto;}
+div#pai>div{
+    background-color:transparent;
+    width: 100px;
+    height: 50px;
+    border-radius: 100px 100px 0 0;
+    border-left:50px solid white;
+    border-right:50px solid white;
+    border-top: 50px solid #fff;
+    transform: rotate(180deg);
+    
+
+}

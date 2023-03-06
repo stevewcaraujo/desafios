@@ -1,0 +1,58 @@
+@charset "UTF-8";
+body
+{
+    background-image: linear-gradient(to right, yellow 60%, transparent);
+    display: grid;
+    place-items: center;
+}
+.conteiner 
+{
+background-color: blue;
+width: 400px;
+height: 400px;
+position: relative;
+z-index: 0;
+
+}
+.x1 
+{
+background-color: red;
+width: 300px;
+height: 300px;
+border-radius: 100%;
+position: absolute;
+left: 12.5%;
+top: 12.5%;
+z-index: 1;
+}
+.x2 
+{
+background-color: green;
+width: 200px;
+height: 200px;
+border-radius: 100%;
+position: absolute;
+left: 25%;
+top: 25%;
+z-index: 2;
+}
+.pai 
+{
+background-color: blue;
+width: 400px;
+height: 400px;
+display: grid;
+place-items: center;
+
+}
+.s1 
+{
+background-color: green;
+width: 200px;
+height: 200px;
+border-radius: 100%;
+border: 50px solid red;
+
+
+
+}
